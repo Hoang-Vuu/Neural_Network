@@ -1,0 +1,5 @@
+Request,Tools called (in order),Calls,Repeats in four-case output,Database checked?,Weather checked?,Grounding / missing evidence
+Stockholm,find_attractions_tool → get_forecast_tool,2,0,Yes,Yes,Location in seeded database; reported rain/wind; raw API payload unavailable in exported outputs
+Berlin,find_attractions_tool → get_forecast_tool,2,0,Yes,Yes,Location in seeded database; reported rain/wind; raw API payload unavailable in exported outputs
+Madrid,None,0,0,No,No,No DB tool call; absence unverified in agent run
+Munich,find_attractions_tool → get_forecast_tool,2,0,Yes,Yes,Location in seeded database; reported rain/wind; raw API payload unavailable in exported outputs
